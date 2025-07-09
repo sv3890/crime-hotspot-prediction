@@ -113,13 +113,13 @@ srccW/
 
 ---
 
-## 🙏 Acknowledgements
+##  Acknowledgements
 
 - OpenStreetMap, Leaflet, scikit-learn, Prophet, Material-UI, FastAPI, and the open-source community.
 
 ---
 
-## 📌 Notes
+##  Notes
 
 - Remove sensitive data (API keys, passwords, large datasets) before uploading to GitHub.
 - Add a `.gitignore` to exclude `node_modules/`, `__pycache__/`, `.env`, and other unnecessary files.
