@@ -1,0 +1,119 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Leaflet map container styles */
+.leaflet-container {
+  width: 100%;
+  height: 400px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* Custom scrollbar styles */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* Form styles */
+.MuiFormControl-root {
+  margin-bottom: 16px;
+}
+
+/* Card styles */
+.MuiCard-root {
+  transition: transform 0.2s ease-in-out;
+}
+
+.MuiCard-root:hover {
+  transform: translateY(-4px);
+}
+
+/* Button styles */
+.MuiButton-root {
+  text-transform: none;
+  font-weight: 500;
+}
+
+/* Alert styles */
+.MuiAlert-root {
+  margin-bottom: 16px;
+}
+
+/* Container styles */
+.MuiContainer-root {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+/* Paper styles */
+.MuiPaper-root {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Typography styles */
+.MuiTypography-h1,
+.MuiTypography-h2,
+.MuiTypography-h3,
+.MuiTypography-h4,
+.MuiTypography-h5,
+.MuiTypography-h6 {
+  margin-bottom: 16px;
+}
+
+/* Grid styles */
+.MuiGrid-container {
+  margin-bottom: 16px;
+}
+
+/* TextField styles */
+.MuiTextField-root {
+  margin-bottom: 16px;
+}
+
+/* Select styles */
+.MuiSelect-select {
+  padding: 12px;
+}
+
+/* Checkbox styles */
+.MuiCheckbox-root {
+  padding: 9px;
+}
+
+/* Slider styles */
+.MuiSlider-root {
+  margin: 16px 0;
+}
+
+/* Link styles */
+.MuiLink-root {
+  text-decoration: none;
+}
+
+.MuiLink-root:hover {
+  text-decoration: underline;
+} 

@@ -1,0 +1,53 @@
+# .gitignore for Crime Reporting Platform
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+.env
+.env.*
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# Node
+node_modules/
+build/
+dist/
+
+# React
+*.log
+*.lock
+*.cache
+*.env.local
+*.env.development.local
+*.env.test.local
+*.env.production.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data
+*.csv
+*.xlsx
+*.xls
+*.db
+*.sqlite3
+
+# VSCode
+.vscode/
+
+# Misc
+*.bak
+*.swp
+*.tmp
+
+# Ignore large model files (optional)
+*.h5
+*.pt
+*.joblib
+*.sav
+*.model
